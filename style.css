@@ -193,3 +193,11 @@
     margin: 20px 10px;
     cursor: pointer;
 }
+#blockFooter{
+    background-color: #186CB0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
