@@ -23,8 +23,173 @@
     color: white;
     cursor: pointer;
 }
+#imgUser {
+    filter: invert();
+}
 #contentAccount{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#contentTarifsAndFilms{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.blockTarifsAndFilms{
+    background-color: #186CB0;
+    padding: 10px 65px;
+    cursor: pointer;
+}
+.blockTarifsAndFilms a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#titleSubscribe {
+    color: #186CB0;
+    margin: 0px 25px;
+}
+#blockSub{
+    background-color: #ECECEC;
+    margin: 15px 25px;
+    display: flex;
+    border-bottom: 1px black solid;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#blockSubChildOne{
+    width: 50%;
+    padding: 10px;
+}
+#blockSubChildTwo{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+#contentFilmLeFormateur{
+    background-color: #ECECEC;
+    margin: 10px 25px;
+    border-bottom: 1px black solid;
+}
+#blockPoster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contentPosterFilm{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+#filmFormateur{
+   width: 150px;
+}
+#blockTitre{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#imgLove{
+    cursor: pointer;
+}
+#blockCoupDeCoeur{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#titleMovie{
+    margin-right: 5px;
+}
+#blockDate{
+    display: flex;
+    justify-content: center;
+}
+#contentStar {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.blockStar{
+    cursor: pointer;
+}
+#contentButton{
+    display: flex;
+    justify-content: center;
+}
+#blockButton{
+    background-color: #4F8B1A;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+#descriptionFilm{
+    text-align: center;
+}
+#blockRoom{
+    background-color: #C4C4C4;
+    margin: 10px 15px;
+    padding: 10px 5px;
+}
+.contentRoom{
+    background-color: #186CB0;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.contentRoom p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#roomFull{
+    background-color: yellow;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+#imgDesktop{
+    width: 40px;
+    filter: invert();
+}
+#imgSchedule{
+    width: 40px;
+    filter: invert();
+}
+.blockSession{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#blockButtonAction{
+    background-color: #6D27A2;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+#blockButtonActionTwo{
+    background-color: #794808;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+    margin: 20px 10px;
+    cursor: pointer;
 }
